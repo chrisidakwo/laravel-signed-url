@@ -12,17 +12,17 @@
     "license": "MIT",
     "authors": [
         {
-            "name":"Cüneyt Şentürk",
-            "email":"info@akaunting.com",
-            "homepage":"https://akaunting.com",
-            "role":"Developer"
+            "name": "Cüneyt Şentürk",
+            "email": "info@akaunting.com",
+            "homepage": "https://akaunting.com",
+            "role": "Developer"
         }
     ],
     "require": {
-        "php": ">=5.6.0",
+        "php": "^5.6.0|^7.0",
         "spatie/url-signer": "^1.0.1",
-        "illuminate/support": ">=5.2 <5.6.12",
-        "illuminate/http": ">=5.2 <5.6.12"
+        "illuminate/support": "^5.2|^5.6",
+        "illuminate/http": "^5.6|^6.0|^7.0"
     },
     "require-dev": {
         "orchestra/testbench": "~3.4.4|~3.5.0|~3.6.0|~3.7.0",
@@ -42,5 +42,8 @@
                 "SignedUrl": "Akaunting\\SignedUrl\\Facade"
             }
         }
+    },
+    "require-dev": {
+        "composer/composer": "^1.10"
     }
 }
